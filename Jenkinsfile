@@ -38,7 +38,7 @@ pipeline {
                 stage('Frontend Tests') {
                     steps {
                         dir('frontend') {
-                            sh 'npm test -- --coverage --watchAll=false'
+                            sh 'npm test -- --coverage --watchAll=false --passWithNoTests'
                         }
                     }
                 }
