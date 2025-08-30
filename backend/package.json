@@ -5,7 +5,8 @@
   "main": "src/services/personagemServices.js",
   "type": "module",
   "scripts": {
-    "start": "node src/services/personagemServices.js"
+    "start": "node src/services/personagemServices.js",
+    "test": "echo 'No tests yet' && exit 0"
   },
   "author": "Hata",
   "license": "MIT",
