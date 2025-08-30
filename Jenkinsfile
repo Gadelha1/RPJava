@@ -62,8 +62,8 @@ pipeline {
         
         stage('Deploy') {
             steps {
-                // Deploy para servidor ou container
-                sh 'docker-compose up -d'
+                echo 'Deploy seria feito aqui (simulado)'
+                echo 'Arquivos buildados estão prontos para deploy'
             }
         }
     }
