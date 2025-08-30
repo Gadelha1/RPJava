@@ -1,0 +1,51 @@
+# **Treino**
+
+## Entidades Principais:
+
+### Personagem:
+
+- Nome;
+- Idade;
+- Genero:
+  - Masculino;
+  - Feminino;
+  - Não-Binário.
+- Raça(Entidade);
+- Classe(Entidade);
+- Atributos:
+  - Força;
+  - Destreza;
+  - Inteligencia;
+  - Carisma;
+  - Constituição;
+- Experiência (Para subir de nível - Futuramente)
+
+### Raça:
+
+- Nome;
+- Bônus:
+  - Humano: +1 todo atributo;
+  - Elfo: +2 Destreza, +1 Inteligencia;
+  - Anão: +2 Constituição, +1 Força;
+  - Orc: + 2 Força, -1 Inteligencia.
+
+- Descrição (Habilidades Raciais - Futuramente).
+
+### Classe:
+
+- Nome:
+  - Guerreiro;
+  - Mago;
+  - Ladino;
+  - Clérigo.
+- Bônus:
+  - (+2 de Força, Requisito: Constituição >= 10);
+  - (+2 Inteligencia, Requisito: Inteligencia >= 12);
+  - (+2 Destreza, Requisito: Destreza >= 10);
+  - (+2 Carisma, Requisito: Carisma >= 10).
+- Descrição.
+
+Um **Personagem** possui **Uma** Classe e **Uma** Raça, além de os **Atributos** serem calculados em **Valor Base** + **Bônus**.
+
+
+

@@ -1,0 +1,13 @@
+.ant-select-arrow {
+  color: black !important;
+}
+.ant-select-selector {
+  border-radius: 3px !important;
+}
+.ant-input {
+  border-radius: 3px !important;
+}
+.portrait-divider {
+  border-top: 1px solid #ccc;
+  margin: 1px 0;
+}
