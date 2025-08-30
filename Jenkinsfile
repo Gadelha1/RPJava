@@ -1,6 +1,11 @@
 pipeline {
     agent any
     
+    tools {
+        nodejs 'Node22'  // Nome que você definiu
+    }
+
+
     stages {
         stage('Checkout') {
             steps {
